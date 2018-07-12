@@ -1,0 +1,65 @@
+#bento {
+  border: solid 10px gray;
+  height: 75em;
+  width: 100em;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.box {
+  border-radius: .5em;
+  margin: .25em;
+  width: 32em;
+}
+
+.b1 {
+  background-color: #1e1f26;
+  height: 10em;
+}
+.b2 {
+  background-color: #051e3e;
+  height: 55em;
+  display: flex;
+  align-self: stretch;
+}
+.b3 {
+  background-color: #251e3e;
+  height: 20em;
+}
+.b4 {
+  background-color: #451e3e;
+  height: 20em;
+}
+.b5 {
+  background-color: #651e3e;
+  height: 20em;
+}
+.b6 {
+  background-color: #851e3e;
+  height: 30em;
+}
+.b7 {
+  background-color: #f6abb6;
+  height: 30em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 2em;
+  text-align: center;
+  background-color: #f2f2f2;
+}
