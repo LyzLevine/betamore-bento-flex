@@ -1,58 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
 #bento {
   border: solid 10px gray;
-  height: 75em;
-  width: 100em;
+  height: 37.5em;
+  width: 50em;
   margin: 0 auto;
   position: relative;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
   color: white;
-  font-size: 3em;
-  margin: 0;
+  font-size: 2em;
+  /* margin: 0; */
   font-family: 'Slabo 27px', serif;
   text-transform: uppercase;
-  padding: 20px;
+
 }
 
 .box {
-  border-radius: .5em;
-  margin: .25em;
-  width: 32em;
+  border-radius: 5px;
+  margin: 0;
+  display: flex;
 }
 
 .b1 {
   background-color: #1e1f26;
-  height: 10em;
+  height: 9em;
+  width: 13em;
 }
 .b2 {
   background-color: #051e3e;
-  height: 55em;
-  display: flex;
-  align-self: stretch;
+  height: 28em;
+  width: 13em;
 }
 .b3 {
   background-color: #251e3e;
-  height: 20em;
+  height: 12em;
+  width: 12em;
 }
 .b4 {
   background-color: #451e3e;
-  height: 20em;
+  height: 12em;
+  width: 12em;
 }
 .b5 {
   background-color: #651e3e;
-  height: 20em;
+  height: 12em;
+  width: 12em;
 }
 .b6 {
   background-color: #851e3e;
-  height: 30em;
+  height: 18.5em;
+  width: 22em;
 }
 .b7 {
   background-color: #f6abb6;
-  height: 30em;
+  height: 18.5em;
+  width: 22em;
 }
 
 footer {
@@ -62,4 +70,5 @@ footer {
   padding: 2em;
   text-align: center;
   background-color: #f2f2f2;
+  font-family: 'Slabo 27px', serif;
 }
